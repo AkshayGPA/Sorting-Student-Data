@@ -13,20 +13,25 @@ table, th, td {
 button{
     background-color: black;
     color: white;
+    height: 30px;
+    width: 130px;
+    padding 5px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container{
     display: flex;
     flex-direction: column;
-    /* border: 1px solid black; */
 }
 
 .header{
     display: flex;
     align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 2px solid black;
     width: auto;
-    height: 20px;
+    height: 35px;
     padding-left: 10px;
     color: white;
     background-color: black;   
@@ -36,22 +41,22 @@ button{
     padding: 10px 10px;
     display: flex;
     align-items: center;
-    background-color: rgb(146, 140, 140);
-    height: 10px;    
+    background-color: rgb(215, 215, 216);
+    height: 20px;    
 }
 
 .search input{
-    width: 92vw;
-    height: 15px;
+    width: 90vw;
+    height: 23px;
 }
 
 .buttons{
     display: flex;
     /* border: 2px solid black; */
     justify-content: space-between;
-    height: 25px;
+    height: 40px;
     padding: 8px 10px;
-    background-color: rgb(146, 140, 140);
+    background-color: rgb(216, 215, 215);
 }
 
 .table-data{
